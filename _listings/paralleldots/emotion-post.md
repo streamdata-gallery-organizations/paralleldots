@@ -36,6 +36,7 @@ paths:
       tags:
       - machine learning
       - emotion
+      - analysis
 definitions: []
 x-collection-name: ParallelDots
 x-streamrank:
