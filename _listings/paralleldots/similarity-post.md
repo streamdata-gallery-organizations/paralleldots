@@ -37,6 +37,7 @@ paths:
       - machine learning
       - semantic
       - similarity
+      - analysis
 definitions: []
 x-collection-name: ParallelDots
 x-streamrank:
