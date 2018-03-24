@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: paralleldots.api.streamdata.gallery
+title: Streamdata Gallery ParallelDots
+url: paralleldots.streamdata.gallery
 tag: ParallelDots
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: paralleldots
 github_branch: master
 collections:
