@@ -11,13 +11,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: ParallelDots
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/apis.md
 specificationVersion: "0.14"
 apis:
-- name: ParallelDots Sentiment
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Sentiment
+  x-api-slug: sentiment-post
   description: |-
     # Introduction
     What does your API do?
@@ -55,13 +55,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//sentiment
-  tags: Machine Learning,Sentiment
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/sentiment-post-openapi.md
-- name: ParallelDots Emotion
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Emotion
+  x-api-slug: emotion-post
   description: |-
     # Introduction
     What does your API do?
@@ -104,13 +104,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//emotion
-  tags: Machine Learning,Emotion,Analysis
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/emotion-post-openapi.md
-- name: ParallelDots Semantic Similarity
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Semantic Similarity
+  x-api-slug: similarity-post
   description: |-
     # Introduction
     What does your API do?
@@ -145,13 +145,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//similarity
-  tags: Machine Learning,Semantic, Similarity,Analysis
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/similarity-post-openapi.md
-- name: ParallelDots Name Entity Recognition
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Name Entity Recognition
+  x-api-slug: ner-post
   description: |-
     # Introduction
     What does your API do?
@@ -196,13 +196,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//ner
-  tags: Machine Learning,Name, Entity, Recognition
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/ner-post-openapi.md
-- name: ParallelDots Keywords
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Keywords
+  x-api-slug: keywords-post
   description: |-
     # Introduction
     What does your API do?
@@ -260,13 +260,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//keywords
-  tags: Machine Learning,Keywords,Analysis
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/keywords-post-openapi.md
-- name: ParallelDots Taxonomy
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Taxonomy
+  x-api-slug: taxonomy-post
   description: |-
     # Introduction
     What does your API do?
@@ -312,13 +312,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//taxonomy
-  tags: Machine Learning,Taxonomy
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/taxonomy-post-openapi.md
-- name: ParallelDots Intent
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Intent
+  x-api-slug: intent-post
   description: |-
     # Introduction
     What does your API do?
@@ -359,13 +359,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//intent
-  tags: Machine Learning,Intent
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/intent-post-openapi.md
-- name: ParallelDots Abuse
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Abuse
+  x-api-slug: abuse-post
   description: |-
     # Introduction
     What does your API do?
@@ -400,13 +400,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//abuse
-  tags: Machine Learning,Abuse
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/abuse-post-openapi.md
-- name: ParallelDots Text Parser
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Text Parser
+  x-api-slug: text-parser-post
   description: |-
     # Introduction
     What does your API do?
@@ -496,13 +496,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//text_parser
-  tags: Machine Learning,Text, Parser
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/text-parser-post-openapi.md
-- name: ParallelDots Custom Classifier
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Custom Classifier
+  x-api-slug: custom-classifier-post
   description: |-
     # Introduction
     What does your API do?
@@ -544,13 +544,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//custom_classifier
-  tags: Machine Learning,Custom, Classifier
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/custom-classifier-post-openapi.md
-- name: ParallelDots Virality Detection
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Virality Detection
+  x-api-slug: popularity-post
   description: "# Introduction\nWhat does your API do?\n\nGet the virality score of
     your picture on socail media.  \n\n# Overview\nThings that the developers should
     know about\n\nThe API accepts the input parameters as form-data.\n\nResponse will
@@ -564,13 +564,13 @@ apis:
     too many concurrent requests will throw 504 time-out error from nginx."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//popularity
-  tags: Machine Learning,Virality, Detection
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/popularity-post-openapi.md
-- name: ParallelDots NSFW
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - NSFW
+  x-api-slug: nsfw-post
   description: |-
     # Introduction
     What does your API do?
@@ -605,13 +605,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//nsfw
-  tags: Machine Learning,NSFW
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/nsfw-post-openapi.md
-- name: ParallelDots Phrase Extractor
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Phrase Extractor
+  x-api-slug: phrase-extractor-post
   description: |-
     # Introduction
     What does your API do?
@@ -682,13 +682,13 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//phrase_extractor
-  tags: Machine Learning,Phrase, Extractor
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/phrase-extractor-post-openapi.md
-- name: ParallelDots Multilang_Keywords
-  x-api-slug: paralleldots
+- name: ParallelDots AI APIs Docs - Multilang_Keywords
+  x-api-slug: multilang-keywords-post
   description: |-
     # Introduction
     What does your API do?
@@ -754,28 +754,16 @@ apis:
     There is no rate limit as such but too many concurrent requests will throw 504 time-out error from nginx.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
   humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3//multilang_keywords
-  tags: Machine Learning,Multilang_Keywords
+  baseURL: https://apis.paralleldots.com//v3
+  tags: Machine Learning, Service API, Relative Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/multilang-keywords-post-openapi.md
-- name: ParallelDots
-  x-api-slug: paralleldots
-  description: ParallelDots is one of the best applied AI research groups in the world.
-    We work with enterprises globally to tackle challenging business problems and
-    create the winners of tomorrow. We also provide AI consulting services to explore
-    the what, why, how and who about deploying AI in businesses. Try-out our cutting
-    edge text analysis APIs and join the community of 1,000+ global users. Contact
-    us at contact@paralleldots.com and tell us about the challenging business problems
-    that you are facing.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png
-  humanURL: https://www.paralleldots.com/
-  baseURL: https://apis.paralleldots.com//v3
-  tags: ParallelDots
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paralleldots/master/_listings/paralleldots/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pagerduty.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://paralleldots.stack.network
 - type: x-blog
   url: https://blog.paralleldots.com/
 - type: x-developer
